@@ -57,7 +57,7 @@ Execute the Intruder attack and analyze the responses.
 Several responses return different content lengths and response sizes, indicating the existence of additional order records.  
   
 
-![564](../Pasted%20image%2020260602132928.png)One response revealed another user's order information:  
+![564](Attachments/Pasted%20image%2020260602132928.png)One response revealed another user's order information:  
   
 ```json  
 {  
