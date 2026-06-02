@@ -76,7 +76,7 @@ Content-Length: 49
 The application accepts credentials in JSON format and returns an
 authentication response when valid credentials are supplied.
 
-![](Attachments/Pasted%20image%2020260530125404.png)
+![556](Attachments/Pasted%20image%2020260530125404.png)
 
 ---
 
