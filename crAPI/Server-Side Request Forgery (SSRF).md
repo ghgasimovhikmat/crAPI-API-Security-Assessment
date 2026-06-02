@@ -1,4 +1,3 @@
-# Server-Side Request Forgery (SSRF)
 
 ## Vulnerability Metadata
 

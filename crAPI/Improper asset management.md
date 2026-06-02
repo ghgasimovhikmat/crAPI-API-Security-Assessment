@@ -16,7 +16,7 @@
 
 ---
 
-![[Pasted image 20260530161332.png]]
+![[Attachments/Pasted image 20260530161332.png]]
 
 
 
