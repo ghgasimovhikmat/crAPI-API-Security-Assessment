@@ -16,7 +16,7 @@
 
 ---
 
-![[Attachments/Pasted image 20260530161332.png]]
+![[Attachments/Pasted image 20260530161332.png|617]]
 
 
 
@@ -31,7 +31,7 @@ This issue falls under **OWASP API9:2023 – Improper Inventory Management**, wh
 ---
 Clicking forgot-password to send OTP
 
-![[Attachments/Pasted image 20260530161332.png]]
+![[Attachments/Pasted image 20260530161332.png|612]]
 
 
 ## Proof of Concept
