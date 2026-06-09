@@ -112,8 +112,7 @@ wfuzz \
 The `FUZZ` keyword instructs the tool to iterate through all password
 candidates contained in the wordlist.
 
-
-![[Attachments/Pasted image 20260530124904.png]]
+![](Attachments/Pasted%20image%2020260609203021.png)
 
 ---
 

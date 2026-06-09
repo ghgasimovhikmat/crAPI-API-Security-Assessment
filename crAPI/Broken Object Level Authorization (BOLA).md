@@ -29,8 +29,7 @@ VIN: U70UHLS52U24HOR39
 PIN: 7579  
 ```
 
-![[Attachments/Pasted image 20260530131137.png]]
-
+![](Attachments/Pasted%20image%2020260609203058.png)
 
 ### Step 2 – Verify Vehicle Ownership  
   
@@ -42,7 +41,7 @@ This demonstrates that possession of the VIN and PIN is sufficient to access veh
   
 ---
 
-![[Attachments/Pasted image 20260530131211.png]]
+![583](Attachments/Pasted%20image%2020260609203117.png)
 
 ### Step 3 – Access Vehicle Information  
   
@@ -59,8 +58,8 @@ After successful verification, the application displays detailed information abo
   
 The application also exposes a map containing the current geographical location of the vehicle.
 
+![](Attachments/Pasted%20image%2020260609203133.png)
 
-![[Attachments/Pasted image 20260530131251.png]]
 
 ### Step 4 – Refresh Vehicle Location  
   
@@ -89,7 +88,9 @@ Example response:
 }  
 ```
 
-![[Attachments/Pasted image 20260530133930.png]]
+![](Attachments/Pasted%20image%2020260609203148.png)
+
+
 
  From the above information we can use the vehicle id to gain information about other users
 ### Step 6 – Retrieve Vehicle Location Information  
@@ -116,9 +117,7 @@ Response:
 "email":"hacker@gmail.com"  
 }  
 ```
-
-
-![[Attachments/Pasted image 20260530131840.png]]
+![](Attachments/Pasted%20image%2020260609203201.png)
 
 
 ### Step 7 – Modify the Object Identifier  
@@ -129,14 +128,13 @@ GET /identity/api/v2/vehicle/383f81cd-9d24-40fe-a0e3-727fc1c0d62e/location HTTP/
 Host: localhost:8888  
 Authorization: Bearer <JWT>  
 ```
-
-
-![[Attachments/Pasted image 20260530132003.png]]
+![](Attachments/Pasted%20image%2020260609203238.png)
 
 We can change the id in burp and voila, we have our result
 **from 796def89-4a5c-48ad-88a7-45850e62900f to  383f81cd-9d24-40fe-a0e3-727fc1c0d62e**
 
-![[Attachments/Pasted image 20260530132113.png]]
+![](Attachments/Pasted%20image%2020260609203304.png)
+
 
 ### Step 8 – Unauthorized Access Confirmed  
   
