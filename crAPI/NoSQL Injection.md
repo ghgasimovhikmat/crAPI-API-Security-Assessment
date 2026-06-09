@@ -22,7 +22,8 @@ During testing, a crafted payload successfully bypassed the normal coupon valida
 POST /community/api/v2/coupon/validate-coupon  
 ```
 
-![](Attachments/Pasted%20image%2020260607132835.png)
+![](Attachments/Pasted%20image%2020260609200619.png)
+
 ---  
   
 ## Proof of Concept  
@@ -44,8 +45,10 @@ Content-Type: application/json
 "coupon_code": "blah"  
 }  
 ```
+![](Attachments/Pasted%20image%2020260609200642.png)
 
-![](Attachments/Pasted%20image%2020260607132939.png)
+
+
 ---  
   
 ### Step 2 – Prepare the Request for Fuzzing  
@@ -86,7 +89,10 @@ Successful payload:
 ```  
   
 ---
-![](Attachments/Pasted%20image%2020260607134654.png)
+
+![](Attachments/Pasted%20image%2020260609200706.png)
+
+
 ---  
   
 ### Step 4 – Identify a Successful Injection  
@@ -139,12 +145,12 @@ $where:'1 == 1'
 { "$gt": "" }  
 { "$nin": [""] }  
 ```
-![](Attachments/Pasted%20image%2020260607135009.png)
 
-![](Attachments/Pasted%20image%2020260607134954.png)
+![](Attachments/Pasted%20image%2020260609200727.png)
 
+![](Attachments/Pasted%20image%2020260609200743.png)
+![](Attachments/Pasted%20image%2020260609200804.png)
 
-![](Attachments/Pasted%20image%2020260607135316.png)
 
 ### Step 7 – Analyze Intruder Results  
   
