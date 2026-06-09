@@ -15,9 +15,7 @@
 | HTTP Method | POST |
 
 ---
-
-![[Attachments/Pasted image 20260530161332.png|617]]
-
+![527](Attachments/Pasted%20image%2020260609202625.png)
 
 
 ## Description
@@ -31,8 +29,8 @@ This issue falls under **OWASP API9:2023 – Improper Inventory Management**, wh
 ---
 Clicking forgot-password to send OTP
 
-![[Attachments/Pasted image 20260530161332.png|612]]
 
+![447](Attachments/Pasted%20image%2020260609202646.png)
 
 ## Proof of Concept
 
@@ -65,8 +63,7 @@ HTTP/1.1 404 Not Found
 }
 ```
 
-
-![[Attachments/Pasted image 20260530161418.png]]
+![563](Attachments/Pasted%20image%2020260609202707.png)
 
 
 ---
@@ -100,8 +97,8 @@ HTTP/1.1 500 Internal Server Error
 
 The response confirms that the endpoint is still operational and processing OTP validation requests.
 
+![623](Attachments/Pasted%20image%2020260609202728.png)
 
-![[Attachments/Pasted image 20260530161446.png]]
 
 ---
 
@@ -118,7 +115,11 @@ seq 0000 9999 > /home/kali/hunter/ids.txt
 ### Step 4 – Execute Version-Downgrade Brute Force Attack
 
 Using `ffuf`, automated requests are directed against the exposed legacy endpoint.
-![[Attachments/Pasted image 20260530163859.png]]
+
+
+![595](Attachments/Pasted%20image%2020260609202750.png)
+
+
 
 ```bash
 
