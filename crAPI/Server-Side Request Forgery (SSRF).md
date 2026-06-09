@@ -29,7 +29,9 @@ Navigate to the **Contact Mechanic** functionality and submit a standard vehicle
 
 The application displays the service request form and allows users to select a mechanic and submit vehicle diagnostics.
 
-![[Attachments/Pasted image 20260530165838.png|380]]
+
+![](Attachments/Pasted%20image%2020260609201616.png)
+
 
 ---
 ### Step 2 – Intercept the Request
@@ -38,7 +40,8 @@ Using Burp Suite, intercept the request generated when submitting the service re
 
 The application sends the following JSON payload to the backend API:
 
-![[Attachments/Pasted image 20260530170045.png]]
+![](Attachments/Pasted%20image%2020260609201643.png)
+
 
 ```http
 POST /workshop/api/merchant/contact_mechanic HTTP/1.1
@@ -81,9 +84,7 @@ Using Burp Repeater or Intruder, replace the value of the `mechanic_api` paramet
 Forward the modified request to the application.
 
 The server responds successfully:
-
-![[Attachments/Pasted image 20260530173522.png]]
-
+![](Attachments/Pasted%20image%2020260609201701.png)
 
 ```http
 HTTP/1.1 200 OK
@@ -105,8 +106,9 @@ The successful response indicates that the backend processed the supplied URL an
 
 Review the webhook.site dashboard and observe that the application server initiates a request to the attacker-controlled endpoint.
 
+![](Attachments/Pasted%20image%2020260609201818.png)
 
-![[Attachments/Pasted image 20260530172943.png]]
+
 
 Captured request:
 
